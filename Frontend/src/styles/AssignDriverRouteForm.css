@@ -1,0 +1,87 @@
+.route-form {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.route-form h2 {
+  margin-bottom: 24px;
+  color: #2c3e50;
+  font-size: 24px;
+  text-align: center;
+}
+
+.route-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.route-form label {
+  font-weight: 600;
+  color: #34495e;
+}
+
+.route-form select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: border 0.3s ease;
+}
+
+.route-form select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.driver-info-box {
+  background-color: #f0f7ff;
+  padding: 16px;
+  border-left: 4px solid #007bff;
+  border-radius: 8px;
+  color: #333;
+  font-size: 15px;
+}
+
+.driver-info-box h4 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.driver-info-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.driver-info-box li {
+  margin-bottom: 6px;
+}
+
+.primary-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 14px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #0056b3;
+}
+
+select[multiple] {
+  height: 150px;
+  overflow-y: auto;
+}

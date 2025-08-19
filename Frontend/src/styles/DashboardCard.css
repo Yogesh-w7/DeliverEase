@@ -1,0 +1,127 @@
+.dashboard-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  max-width: 320px;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-card-title {
+  font-size: 1rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+.dashboard-card-value {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.25rem 0 0 0;
+  color: #111827;
+}
+
+.icon-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-card-icon {
+  font-size: 1.25rem;
+}
+
+/* Background and text colors based on 'color' prop */
+.bg-blue-100 {
+  background-color: #dbeafe;
+}
+
+.text-blue-600 {
+  color: #2563eb;
+}
+
+.bg-green-100 {
+  background-color: #d1fae5;
+}
+
+.text-green-600 {
+  color: #059669;
+}
+
+.bg-yellow-100 {
+  background-color: #fef9c3;
+}
+
+.text-yellow-600 {
+  color: #ca8a04;
+}
+
+.bg-red-100 {
+  background-color: #fee2e2;
+}
+
+.text-red-600 {
+  color: #dc2626;
+}
+
+/* Progress bar */
+.dashboard-card-progress-section {
+  margin-top: 1rem;
+}
+
+.progress-container {
+  background-color: #f3f4f6;
+  height: 8px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(to right, #3b82f6, #2563eb);
+  border-radius: 8px;
+  transition: width 0.4s ease-in-out;
+}
+
+.progress-subtext {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 0.25rem;
+}
+
+/* Customer Rating Section */
+.customer-rating-section {
+  margin-top: 1rem;
+}
+
+.star-rating i {
+  color: #facc15;
+  margin-right: 4px;
+  transition: transform 0.2s;
+}
+
+.star-rating i:hover {
+  transform: scale(1.1);
+}
+
+.rating-text {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 0.25rem;
+}

@@ -1,0 +1,119 @@
+.topbar {
+    background-color: white;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Left section */
+.topbar-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.topbar-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937; /* gray-800 */
+    margin: 0;
+}
+
+.topbar-subtitle {
+    color: #4b5563; /* gray-600 */
+    font-size: 14px;
+    margin: 4px 0 0 0;
+}
+
+/* Right section */
+.topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Icon button wrapper */
+.icon-button-wrapper {
+    position: relative;
+}
+
+.icon-button {
+    padding: 8px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-button:hover {
+    background-color: #f3f4f6; /* gray-100 */
+}
+
+.icon {
+    font-size: 20px;
+    color: #4b5563; /* gray-600 */
+}
+
+/* Notification badge */
+.notification-badge {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-color: #ef4444; /* red-500 */
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 9999px;
+    line-height: 1;
+    user-select: none;
+}
+
+/* User info */
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Avatar */
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #bfdbfe; /* blue-100 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-icon {
+    color: #2563eb; /* blue-600 */
+    font-size: 20px;
+}
+
+/* User details */
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    color: #111827; /* gray-900 */
+}
+
+.user-email {
+    margin: 2px 0 0 0;
+    font-size: 13px;
+    color: #4b5563; /* gray-600 */
+}
